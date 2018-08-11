@@ -6,8 +6,27 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Listando os usuários</title>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+
 </head>
 <body>
+	<h1 style="text-align: center">Só mina foda, além de nós, óbvio! ;)</h1>
 
 	<%
 		try {
@@ -19,7 +38,7 @@
 
 			ResultSet rs = stmt.executeQuery(sql);
 	%>
-	<table border="1" style="width: 100%">
+	<table style="width: 100%">
 		<tr>
 			<th>ID</th>
 			<th>Nome</th>
