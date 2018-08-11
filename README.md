@@ -9,5 +9,8 @@ Instalação:
 Importar dump:
  - `mysql -u root -p semmvc < backup.sql`
  
+### Servidor de aplicação (Tomcat 7):
+ - https://tomcat.apache.org/download-70.cgi
+ 
 ## Discussão:
   - Quais são os problemas de utilizar uma arquitetura assim?
